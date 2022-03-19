@@ -24,7 +24,18 @@ int main(int argc, char** argv) {
 	cin>>n; //Guardamos el numero aqui
 	cout<<"Los numeros pares son"<<endl;
 
+		
+	//Ciclo for para la impresion de los n numeros
+	for(i = 1; i <= n ; i++){
+		
+		/*Estructura selectiva if para compara los numeros sean divisibles entre dos 
+		y asi saber si son numeros pares*/
+		if(i % 2 == 0){
+		cout<<i<<endl;
+		}
+	}
 
+	system("pause");
 
     return 0;
 }
