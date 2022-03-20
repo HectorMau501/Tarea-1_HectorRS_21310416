@@ -25,6 +25,17 @@ int main(int argc, char** argv) {
 	cin>>numero;
 
 
+    //Ciclo for para crear los numeros 1 hasta n
+	for(i = 1; i <= numero ; i++){
+		
+		z = x + y;
+		x = y;
+		y = z;
+		
+		cout<<z<<" , ";
+	
+	}
+
     system("pause");
 	return 0;
 }
